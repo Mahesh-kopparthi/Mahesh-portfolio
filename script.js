@@ -8,5 +8,3 @@ var jobTitles = ['Front-End', 'Java', 'web', 'software'];
     }
 
     setInterval(updateJobTitle, 1600);
-
-    
