@@ -121,30 +121,60 @@ color: rgb(159,236, 179);
         font-size: larger;
         padding:20px;
     }
-    #footer{
-    
-        color: #d62828;
-        background-color: rgb(69, 53, 85);
-        font-size:19px;
-        text-align: center;
-        position:relative;
-        margin-top:300px;
-        color: rgb(13, 232, 232);
-    }
+
     #homefooters{
-        background-color: rgb(69, 53, 85);
+        background-color: rgb(57, 45, 70);
        font-size:19px;
        text-align: center;
        position:relative;
        margin-top:px;
        color: rgb(13, 232, 232);
     }
-    /* Styles for desktop devices */
-@media (min-width: 768px) {
-    /* Your desktop styles here */
+    #projectscontainers{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        padding:12px;
+       ;
+       
+        
+    }
+    #projectsimagess{
+        width:300px;
+        height:300px;
+        border: solid #bafbf4;
+        border-radius:19px;
+        
+       
+    }
+    
+#projectsnamess{
+    color: rgb(80, 191, 191);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border:none;
+    background-color:rgb(49, 44, 58);
+
+}
+#projectsdivs{
+  margin:60px;
+  border:  rgb(237, 234, 241);
+  border-radius:12px;
+ border-bottom:96px;
+}
+/
+@media (max-width: 768px) {
+   
+    #mainheads {
+        padding: 40px; 
+    }
 }
 
-/* Styles for mobile devices */
-@media (max-width: 767px) {
-    /* Your mobile styles here */
+
+@media (min-width: 769px) {
+  
+    .navbar {
+        font-size: larger;
+    }
 }
+
